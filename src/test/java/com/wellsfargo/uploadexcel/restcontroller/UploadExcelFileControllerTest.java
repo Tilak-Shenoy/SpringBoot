@@ -31,7 +31,7 @@ class UploadExcelFileControllerTest {
     @Test
     public void uploadFileTest() throws Exception {
 
-        File initialFile = new File("excel.xlsx");
+        File initialFile = new File("C:/Users/c2wfjava07/SpringBoot/src/test/java/com/wellsfargo/uploadexcel/restcontroller/excel.xlsx");
         InputStream targetStream = new FileInputStream(initialFile);
         
         StockDetailsEntity details = new StockDetailsEntity();
